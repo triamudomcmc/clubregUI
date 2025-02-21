@@ -53,7 +53,6 @@ const Evaluate = () => {
     new Date("2024-12-23T00:00:00.00").getTime().toString(),
     new Date("2024-12-30T00:00:00.00").getTime().toString(),
     new Date("2025-01-27T00:00:00.00").getTime().toString(),
-    new Date("2025-02-10T00:00:00.00").getTime().toString(),
   ]
 
   const month = {
@@ -205,7 +204,7 @@ const Evaluate = () => {
       <div className="flex min-h-screen w-full flex-col items-center py-10 px-6">
         <h1 className="mb-2 text-center text-4xl text-TUCMC-gray-900">ประเมินผล</h1>
         <p className="text-center text-TUCMC-gray-700">กรรมการชมรมจะต้องประเมินผลนักเรียนทุกคนให้เสร็จ</p>
-        <p className="mb-2 text-center text-TUCMC-gray-700">ภายในวันจันทร์ ที่ 23 กันยายน 2567</p>
+        <p className="mb-2 text-center text-TUCMC-gray-700">ภายในวันอังคาร ที่ 25 กุมภาพันธ์ 2568</p>
         <div className="mb-10 w-full max-w-[400px]">
           <div
             ref={box}
